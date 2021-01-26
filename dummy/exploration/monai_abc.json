@@ -1,0 +1,28 @@
+{
+    "MODEL":{
+             "MODEL_TYPE": "monai.networks.nets.Classifier",
+             "MODEL_ARGS": {"in_shape": [1,128,128,128],"channels": [4,8,16,8,1],"strides": [2,2,2,2,2],"classes": 2}
+            },
+    "OPTIMIZER":{
+                 "OPTIMIZER_TYPE": "torch.optim.Adam",
+                 "OPTIMIZER_ARGS": {"lr": 0.001,"betas": [0.9,0.999]}
+                },
+    "CRITERION":{
+                 "CRITERION_TYPE": "torch.nn.CrossEntropyLoss"
+                },
+    "DATASET":{
+               "DATA_TYPE": "monai.data.CacheDataset",
+               "VOLUME_SHAPE": [128,128,128],
+               "DATASET_PATH": "D:/iitm/IU/IU_04/IU_APWS/BRATS2017/Brats17TrainingData/",
+               "TRANSFORMS_KEYS": ["img","img","img","img","img",["img","label"]],
+               "TRANSFORMS_DICT": "None"
+              },
+    "LOADER":{
+              "LOADER_TYPE": "monai.data.DataLoader",
+              "LOADER_ARGS": {"Train": {"batch_size": 6,"shuffle": true},"Valid": {"batch_size": 2,"shuffle": true}}
+             },
+    "TRAIN_ENGINE":{
+                    "ENGINE_TYPE": "monai.engines.SupervisedTrainer",
+                    "ENGINE_ARGS": {"max_epochs": 3}
+                   }
+}
