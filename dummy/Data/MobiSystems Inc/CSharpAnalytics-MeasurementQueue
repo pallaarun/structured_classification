@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ArrayOfanyURI xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-  <anyURI>http://www.google-analytics.com/collect?v=1&amp;ul=en-us&amp;de=ISO-8859-1&amp;sd=32-bit&amp;sr=1920x1080&amp;vp=1920x1080&amp;tid=UA-89829415-1&amp;an=OfficeSuiteWin&amp;av=4.90.35798.0&amp;aip=1&amp;cid=9bfecac8-99f9-4af9-b50b-f150e26b6da0&amp;t=event&amp;ec=ApplicationLifecycle&amp;ea=Start&amp;z=88276049#2021-01-22T16:30:10.4688342Z</anyURI>
-  <anyURI>http://www.google-analytics.com/collect?v=1&amp;ul=en-us&amp;de=ISO-8859-1&amp;sd=32-bit&amp;sr=1920x1080&amp;vp=1920x1080&amp;tid=UA-89829415-1&amp;an=OfficeSuiteWin&amp;av=4.90.35798.0&amp;aip=1&amp;cid=9bfecac8-99f9-4af9-b50b-f150e26b6da0&amp;t=event&amp;ec=SystemEvents&amp;ea=StartSession&amp;cd2=Documents&amp;cd3=False&amp;cd5=0&amp;cd8=True&amp;z=624295140#2021-01-22T16:30:10.5043337Z</anyURI>
-  <anyURI>http://www.google-analytics.com/collect?v=1&amp;ul=en-us&amp;de=ISO-8859-1&amp;sd=32-bit&amp;sr=1920x1080&amp;vp=1920x1080&amp;tid=UA-89829415-1&amp;an=OfficeSuiteWin&amp;av=4.90.35798.0&amp;aip=1&amp;cid=9bfecac8-99f9-4af9-b50b-f150e26b6da0&amp;t=event&amp;ec=OperatingSystemVersion&amp;ea=Windows%2010%20Home%20Single%20Language&amp;cd15=18363&amp;z=142385469#2021-01-22T16:30:10.5084931Z</anyURI>
-</ArrayOfanyURI>
